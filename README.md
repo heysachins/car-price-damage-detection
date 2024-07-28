@@ -1,38 +1,10 @@
-
-
-> _Data Mining and Machine Learning Group Coursework_
 # Used Car Price Prediction and Damage Detection of Cars
-
-## Group Name: SA3N
-
->
-
-## Group Members
-
-1. Aashima Parvathi Poudhar @aashimapoudhar (H00423612)
-2. Abin Paul, @abinpaul93(H00413590)
-3. Amrutha Vadrevu, @av2028 (H00423588)
-4. Neethu Jose, @neethsjose0130 (H00423417)
-5. Sachin Sasidharan Nair, @hey-sachin (H00422359)
-
-<details>
-  <summary> <h1>Summary of Contributions </h1></summary>
-
-| Name | HW_ID | Contribution (%) | 
-|-------------------|--------------|------------|
-| Aashima Poudhar | H00423612 | 22 | 
-| Abin Paul | H00413590  | 20 |  
-| Amrutha Vadrevu | H00423588 | 25 |  
-| Neethu Jose | H00423417| 10 |  
-| Sachin Sasidharan Nair | H00422359 | 23 | 
-  
-</details>
 
 ## Topic
 
 > _Used Car Price Prediction and Damage Detection of Cars_
 
-The coursework focuses on predicting the prices of used cars in the US market using ML and using CNN to identify the body type and damage of cars.
+The project focuses on predicting the prices of used cars in the US market using ML and using CNN to identify the body type and damage of cars.
 
 > _Motivation_
 
@@ -78,7 +50,7 @@ As with any data-driven project, ethical considerations are paramount. The utili
 - Objective: Examine how the models assist retailers in understanding key features impacting prices and optimizing inventory values.
 - Milestone: Evaluate the impact of model-informed pricing strategies on retailer inventory management.
 
-## Findings Report
+## Findings
 
 <!-- Below you should report all of your findings in each section. You can fill this out as the project progresses. -->
 
@@ -517,7 +489,7 @@ The convolution neural network architecture implemented is common for both model
 
 ### Conclusion
 
-In this coursework, we delve into two primary aspects: predicting used car prices and employing Convolutional Neural Networks (CNN) to discern a car's body type and detect damage. For used car price prediction, clustering identifies data distribution and outliers, while decision trees identify key features that influence pricing. Our validated hypothesis asserts that the random forest regressor surpasses both decision trees and linear regression in predicting the price. 
+In this project, we delve into two primary aspects: predicting used car prices and employing Convolutional Neural Networks (CNN) to discern a car's body type and detect damage. For used car price prediction, clustering identifies data distribution and outliers, while decision trees identify key features that influence pricing. Our validated hypothesis asserts that the random forest regressor surpasses both decision trees and linear regression in predicting the price. 
 
 Additionally, car pricing is influenced by various factors, and for personalized predictions, visual elements are crucial. The body type and damage incurred significantly impact car prices. To enhance price prediction, we integrated these factors with historical used car sales data. Employing CNN further refined our model's ability to consider visual aspects in this multifaceted prediction process.  
 
