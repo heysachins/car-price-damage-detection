@@ -331,8 +331,8 @@ Since it is a supervised regression task, decision trees and random forest regre
 
 2. Learning curves for both decision trees and random forest regressor show if the models are underfitting or overfitting. In our case, the models are learning well from the training data. However, there is scope for improvement. This is a conscious choice since we’ve prioritized computational efficiency over performance.
 <p align="center">
-     <img src="https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/LearningCurves_DecisionTrees.png?raw=true" alt="Learning Curve of Decision Tree Regressor" width="350"/>
-     <img src="https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/LearningCurves_RandomForest.png?raw=true" alt="Learning Curve of Decision Tree Regressor" width="350"/>
+     <img src="documentation/LearningCurves_DecisionTrees.png?raw=true" alt="Learning Curve of Decision Tree Regressor" width="350"/>
+     <img src="documentation/LearningCurves_RandomForest.png?raw=true" alt="Learning Curve of Decision Tree Regressor" width="350"/>
 </p>
 
 #### Results
