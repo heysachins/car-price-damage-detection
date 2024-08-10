@@ -144,7 +144,7 @@ Notes:
   
 #### Dataset Cleaning
 
-[Link to notebook](https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/a736e335ae248dcc35ba6a7844bbbda2d5ba0ce8/notebooks/CW_PreProcessing.ipynb)
+[Link to notebook](notebooks/CW_PreProcessing.ipynb)
 
 - Filtered irrelevant data:
   - Excluded cars with confirmed salvage value because these vehicles typically have undergone significant damage, and their market values may not accurately reflect the standard pricing of non-damaged vehicles.
@@ -279,7 +279,7 @@ Clearly, there is a dominance of the mid-price category in all clusters. Therefo
 
 #### Jupyter Notebook
 
-[Link to notebook](https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/34e717bfd1b91e40e1225f947baa3dd67dd6b5b8/notebooks/DecisionTrees_RandomForests.ipynb)
+[Link to notebook](notebooks/DecisionTrees_RandomForests.ipynb)
 
 #### Experimental design
 
@@ -363,7 +363,7 @@ Linear Regression assumes that the features and target variable have a linear re
 
 The hyperparameter tuning has helped the performance because tuning helps find the parameters at which the model’s performance is optimized.
 
-[Link to Linear Regression implementation](https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/34e717bfd1b91e40e1225f947baa3dd67dd6b5b8/notebooks/LinearRegression.ipynb)
+[Link to Linear Regression implementation](notebooks/LinearRegression.ipynb)
 
 
 ## Convolutional Neural Networks
