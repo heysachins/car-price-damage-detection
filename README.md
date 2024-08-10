@@ -325,8 +325,8 @@ Since it is a supervised regression task, decision trees and random forest regre
 
 1. Scatterplots with actual vs predicted price values were plotted to visualize how the models’ predictions fare compared to actual values. The plots were linear indicating that the predictions were close to the actual values.
  <p align="center">
-    <img src="https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/Scatterplot_DecisionTrees.png?raw=true" alt="Predicted vs Actual Values - Decision Trees" width="350"/>
-    <img src="https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/Scatterplot_RandomForest.png?raw=true" alt="Predicted vs Actual Values - Random Forest" width="350"/>
+    <img src="documentation/Scatterplot_DecisionTrees.png?raw=true" alt="Predicted vs Actual Values - Decision Trees" width="350"/>
+    <img src="documentation/Scatterplot_RandomForest.png?raw=true" alt="Predicted vs Actual Values - Random Forest" width="350"/>
 </p>
 
 2. Learning curves for both decision trees and random forest regressor show if the models are underfitting or overfitting. In our case, the models are learning well from the training data. However, there is scope for improvement. This is a conscious choice since we’ve prioritized computational efficiency over performance.
@@ -447,28 +447,28 @@ The model architecture specified above has been used to implement two models, na
 Visualizing the accuracy and loss metrics of the damage model:
 
 <p align="center">
-       <img src="https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/dmAccuracy.png? raw=true" alt="Accuracy of Damage Model" width="350"/>
-       <img src="https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/dmLoss.png? raw=true"alt="Loss of Damage Model" width="350"/>
+       <img src="documentation/dmAccuracy.png? raw=true" alt="Accuracy of Damage Model" width="350"/>
+       <img src="documentation/dmLoss.png? raw=true"alt="Loss of Damage Model" width="350"/>
   </p>
   
 Visualizing the accuracy and loss metrics of the body model:
 
 <p align="center">
-       <img src="https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/bodyAccuracy.png? raw=true" alt="Accuracy of Body Model" width="350"/>
-       <img src="https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/bodyLoss.png? raw=true"alt="Loss of Body Model" width="350"/>
+       <img src="documentation/bodyAccuracy.png? raw=true" alt="Accuracy of Body Model" width="350"/>
+       <img src="documentation/bodyLoss.png? raw=true"alt="Loss of Body Model" width="350"/>
   </p>
 
 Visualizing the predictions done on the test data for body and damage models:
 
 | Damage Model | Body Model |
 |:------------:|:----------:|
-| ![Predictions of Damage Model on test data](https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/dmPredicted.png?raw=true) | ![Predictions of Body Model on test data](https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/bodyPredicted.png?raw=true) |
+| ![Predictions of Damage Model on test data](documentation/dmPredicted.png?raw=true) | ![Predictions of Body Model on test data](documentation/bodyPredicted.png?raw=true) |
 
 Confusion matrix for both body and damage models:
 
 | Damage Model | Body Model |
 |:------------:|:----------:|
-| ![Confusion matrix of Damage Model](https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/dmConfusionMatrix.png?raw=true) | ![Confusion matrix of Body Model](https://github.com/dmml-heriot-watt/group-coursework-sa3n/blob/main/documentation/bodyConfusionMatrix.png?raw=true) |
+| ![Confusion matrix of Damage Model](documentation/dmConfusionMatrix.png?raw=true) | ![Confusion matrix of Body Model](documentation/bodyConfusionMatrix.png?raw=true) |
 
 
 #### Results
